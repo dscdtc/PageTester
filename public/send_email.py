@@ -70,12 +70,12 @@ def sendMail(sender,smtpserver,username,password,subject,receiver,mailToCc,msg_t
     
 if __name__=="__main__":
     
-    sender = 'lixinxin.jk0801@163.com'
-    receiver = 'lixinxin@icloudcity.cn,907044350@qq.com'
-    mailToCc = '924940668@qq.com,907044350@qq.com'
+    sender = '******@163.com'
+    receiver = '****@icloudcity.cn,****@qq.com'
+    mailToCc = '***@qq.com,****@qq.com'
     smtpserver = 'smtp.163.com'  
-    username = 'lixinxin.jk0801@163.com'  
-    password = '20081626xiaohui'  
+    username = '******@163.com'  
+    password = '*********************'  
     subject = u'接口测试报告'
     msg_text = 'C:\\Users\\admin\\Desktop\\002.html'
     msg_type = 'file'
